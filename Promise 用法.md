@@ -5,8 +5,8 @@
 
 ##语法
 ```JavaScript
->new Promise(executor);
->new Promise(function(resolve, reject) { ... });
+new Promise(executor);
+new Promise(function(resolve, reject) { ... });
 ```
 ##实例
 
