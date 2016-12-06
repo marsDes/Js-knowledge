@@ -13,7 +13,7 @@ input
 init<em>可选</em>
 一个配置项对象，包括所有对请求的设置。可选的参数有：
 >method: 请求使用的方法，如 GET、POST。
-<headers: 请求的头信息，形式为 Headers 对象或 ByteString。
+>headers: 请求的头信息，形式为 Headers 对象或 ByteString。
 >body: 请求的 body 信息：可能是一个 Blob、BufferSource、FormData、URLSearchParams 或者 USVString 对象。
        注意 GET 或 HEAD 方法的请求不能包含 body 信息。
 ##实例
@@ -46,3 +46,5 @@ fetch(myRequest,myInit).then(function(response) {
   ... 
 });
 ```
+##资料
+https://developer.mozilla.org/zh-CN/docs/Web/API/GlobalFetch/fetch
