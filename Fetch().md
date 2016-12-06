@@ -1,7 +1,7 @@
 #Fetch
 ##概述
 fetch方法用于发起获取资源的请求。
-它返回一个 promise，这个 promise 会在请求响应后被 resolve，并传回 Response 对象。
+它返回一个 <a href="https://github.com/marsDes/Js-knowledge/blob/master/Promise%20%E7%94%A8%E6%B3%95.md">promise</a>，这个 promise 会在请求响应后被 resolve，并传回 Response 对象。
 ##语法
 ```javascript
 fetch(input, init).then(function(response) { ... });
