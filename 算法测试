@@ -1,0 +1,15 @@
+## 求最大公约数
+```js
+function getNum(a,b){
+  let max = a; min = b;
+  if(b>a){
+    max = b;
+    min = a;
+  }
+  for(let i=min;i>0;i--){
+    if(max%i===0&&min%i===0){
+      return i
+    }
+  }
+}
+```
