@@ -1,14 +1,14 @@
-#Promise
+# Promise
 
-##概述
+## 概述
 所谓Promise，简单说就是一个容器，里面保存着某个未来才会结束的事件（通常是一个异步操作）的结果。
 
-##语法
+## 语法
 ```JavaScript
 new Promise(executor);
 new Promise(function(resolve, reject) { ... });
 ```
-##实例
+## 实例
 
 ```JavaScript
   let t = 0;
@@ -27,5 +27,5 @@ new Promise(function(resolve, reject) { ... });
       console.log(`第 ${times} 次 结束同步代码`)
   }
 ```
-##资料
+## 资料
 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise
